@@ -1,0 +1,4 @@
+data=[1, 'hello',3,'friends',5]
+result=all(map(lambda x:isinstance(x,(int,str)),data))
+
+print(result)
